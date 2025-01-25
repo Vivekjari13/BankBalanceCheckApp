@@ -24,7 +24,6 @@ public class LoanServices extends AppCompatActivity {
         etLoanDuration = findViewById(R.id.etLoanDuration);
         tvEmiResult = findViewById(R.id.tvEmiResult);
 
-
         findViewById(R.id.btnCalculateEmi).setOnClickListener(this::calculateEMI);
     }
 
