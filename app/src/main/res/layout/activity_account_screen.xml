@@ -52,6 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
         android:text="Logout"
-        android:onClick="logoutUser"/>
+        android:onClick="logoutUser"
+        />
+
 
 </LinearLayout>

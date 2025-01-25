@@ -28,7 +28,7 @@ public class HomeScreen extends AppCompatActivity {
 
 
         findViewById(R.id.btnAccountDetails).setOnClickListener(v -> {
-            Intent intent = new Intent(this, AccountDetails.class);
+            Intent intent = new Intent(this, AccountScreen.class);
             intent.putExtra("user", userData);
             startActivity(intent);
         });
