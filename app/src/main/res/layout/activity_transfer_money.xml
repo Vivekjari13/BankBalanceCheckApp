@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="24dp"
+    android:padding="20dp"
+    android:background="#001F3F"
     tools:context=".TransferMoney">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Transfer Money"
         android:textSize="24sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"/>
 
@@ -23,8 +24,9 @@
         android:layout_height="wrap_content"
         android:hint="Enter Account number"
         android:inputType="number"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
         android:layout_marginBottom="20dp"/>
 
     <EditText
@@ -33,16 +35,18 @@
         android:layout_height="wrap_content"
         android:hint="Enter Amount"
         android:inputType="number"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
         android:layout_marginBottom="20dp"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSendMoney"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Send Money"
         android:layout_marginHorizontal="50dp"
+        android:background="#735DFD"
         android:textColor="@color/white"/>
 
 </LinearLayout>

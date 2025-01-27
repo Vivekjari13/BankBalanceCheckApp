@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="24dp"
+    android:padding="20dp"
+    android:background="#001F3F"
     tools:context=".AccountScreen">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/profile1"
-        android:contentDescription="this is user profile picture"
+        android:contentDescription="This is user profile picture"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         />
@@ -47,11 +48,13 @@
         android:layout_marginVertical="20dp"
         android:textSize="18sp"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
         android:text="Logout"
+        android:textColor="@color/white"
+        android:background="#735DFD"
         android:onClick="logoutUser"
         />
 

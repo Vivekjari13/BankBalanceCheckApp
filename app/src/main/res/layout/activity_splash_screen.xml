@@ -5,23 +5,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/Splash"
+    android:background="#001F3F"
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/unnamed"
-        android:contentDescription="this_is_logo"/>
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="This is app logo"
+        android:src="@drawable/sbi"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yono SBI"
+        android:text="@string/welcome_to_sbi_bank"
         android:textColor="@color/white"
-        android:textSize="30sp"
-        android:layout_marginTop="20dp"
-        android:textStyle="bold"/>
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"/>
 
     <ProgressBar
         android:layout_width="wrap_content"

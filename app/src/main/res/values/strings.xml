@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BankBalanceCheckApp</string>
+    <string name="welcome_to_sbi_bank">Welcome to SBI Bank</string>
 </resources>

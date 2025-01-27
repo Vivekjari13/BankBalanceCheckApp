@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="24dp"
+    android:padding="20dp"
+    android:background="#001F3F"
     tools:context=".LoanServices">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Loan Services"
         android:textSize="24sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"/>
 
@@ -23,7 +24,8 @@
         android:layout_height="wrap_content"
         android:hint="Loan Amount"
         android:inputType="number"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_marginBottom="16dp"/>
 
     <EditText
@@ -31,14 +33,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Loan Duration (in months)"
+        android:textColorHint="@color/white"
         android:inputType="number"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginBottom="16dp"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCalculateEmi"
+        android:background="#735DFD"
         android:text="Calculate EMI"
         android:textColor="@color/white"/>
 
@@ -46,9 +50,9 @@
         android:id="@+id/tvEmiResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EMI :₹0"
+        android:text="EMI : ₹0"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="20dp"/>
 
 </LinearLayout>

@@ -5,19 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="24dp"
+    android:background="#001F3F"
+    android:padding="20dp"
     tools:context=".HomeScreen">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sbi Services"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/welcomeText"
@@ -30,6 +20,18 @@
         android:layout_marginBottom="20dp"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sbi Services"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -39,41 +41,46 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnAccountDetails"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Account Details"
+                android:background="#735DFD"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"/>
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnTransferMoney"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Transfer Money"
+                android:background="#735DFD"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnTransactionHistory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Transaction History"
+                android:background="#735DFD"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnLoanServices"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Loan Services"
+                android:background="#735DFD"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSetting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#735DFD"
                 android:text="Settings"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"/>
